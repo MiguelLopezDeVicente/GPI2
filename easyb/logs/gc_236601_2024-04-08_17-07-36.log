@@ -1,0 +1,41 @@
+[2024-04-08T17:07:36.288+0200][info][gc] Using Serial
+[2024-04-08T17:07:36.288+0200][info][gc,heap,coops] Heap address: 0x00000000f0000000, size: 256 MB, Compressed Oops mode: 32-bit
+[2024-04-08T17:07:37.565+0200][info][gc,start     ] GC(0) Pause Young (Allocation Failure)
+[2024-04-08T17:07:37.593+0200][info][gc,heap      ] GC(0) DefNew: 69952K->7562K(78656K)
+[2024-04-08T17:07:37.593+0200][info][gc,heap      ] GC(0) Tenured: 0K->0K(174784K)
+[2024-04-08T17:07:37.593+0200][info][gc,metaspace ] GC(0) Metaspace: 11619K(12416K)->11619K(12416K) NonClass: 10402K(11008K)->10402K(11008K) Class: 1216K(1408K)->1216K(1408K)
+[2024-04-08T17:07:37.593+0200][info][gc           ] GC(0) Pause Young (Allocation Failure) 68M->7M(247M) 27,856ms
+[2024-04-08T17:07:37.593+0200][info][gc,cpu       ] GC(0) User=0,06s Sys=0,02s Real=0,03s
+[2024-04-08T17:07:37.784+0200][info][gc,start     ] GC(1) Pause Young (Allocation Failure)
+[2024-04-08T17:07:37.800+0200][info][gc,heap      ] GC(1) DefNew: 77514K->32K(78656K)
+[2024-04-08T17:07:37.800+0200][info][gc,heap      ] GC(1) Tenured: 0K->7501K(174784K)
+[2024-04-08T17:07:37.800+0200][info][gc,metaspace ] GC(1) Metaspace: 11643K(12416K)->11643K(12416K) NonClass: 10426K(11008K)->10426K(11008K) Class: 1216K(1408K)->1216K(1408K)
+[2024-04-08T17:07:37.800+0200][info][gc           ] GC(1) Pause Young (Allocation Failure) 75M->7M(247M) 16,422ms
+[2024-04-08T17:07:37.800+0200][info][gc,cpu       ] GC(1) User=0,02s Sys=0,01s Real=0,02s
+[2024-04-08T17:07:37.986+0200][info][gc,start     ] GC(2) Pause Young (Allocation Failure)
+[2024-04-08T17:07:37.986+0200][info][gc,heap      ] GC(2) DefNew: 69984K->15K(78656K)
+[2024-04-08T17:07:37.986+0200][info][gc,heap      ] GC(2) Tenured: 7501K->7501K(174784K)
+[2024-04-08T17:07:37.986+0200][info][gc,metaspace ] GC(2) Metaspace: 11655K(12416K)->11655K(12416K) NonClass: 10438K(11008K)->10438K(11008K) Class: 1216K(1408K)->1216K(1408K)
+[2024-04-08T17:07:37.986+0200][info][gc           ] GC(2) Pause Young (Allocation Failure) 75M->7M(247M) 0,753ms
+[2024-04-08T17:07:37.986+0200][info][gc,cpu       ] GC(2) User=0,00s Sys=0,01s Real=0,00s
+[2024-04-08T17:07:38.137+0200][info][gc,start     ] GC(3) Pause Young (Allocation Failure)
+[2024-04-08T17:07:38.139+0200][info][gc,heap      ] GC(3) DefNew: 69967K->66K(78656K)
+[2024-04-08T17:07:38.139+0200][info][gc,heap      ] GC(3) Tenured: 7501K->7501K(174784K)
+[2024-04-08T17:07:38.139+0200][info][gc,metaspace ] GC(3) Metaspace: 11664K(12416K)->11664K(12416K) NonClass: 10447K(11008K)->10447K(11008K) Class: 1216K(1408K)->1216K(1408K)
+[2024-04-08T17:07:38.140+0200][info][gc           ] GC(3) Pause Young (Allocation Failure) 75M->7M(247M) 2,047ms
+[2024-04-08T17:07:38.140+0200][info][gc,cpu       ] GC(3) User=0,00s Sys=0,00s Real=0,00s
+[2024-04-08T17:07:38.268+0200][info][gc,start     ] GC(4) Pause Young (Allocation Failure)
+[2024-04-08T17:07:38.269+0200][info][gc,heap      ] GC(4) DefNew: 70018K->13K(78656K)
+[2024-04-08T17:07:38.269+0200][info][gc,heap      ] GC(4) Tenured: 7501K->7501K(174784K)
+[2024-04-08T17:07:38.269+0200][info][gc,metaspace ] GC(4) Metaspace: 11664K(12416K)->11664K(12416K) NonClass: 10448K(11008K)->10448K(11008K) Class: 1216K(1408K)->1216K(1408K)
+[2024-04-08T17:07:38.269+0200][info][gc           ] GC(4) Pause Young (Allocation Failure) 75M->7M(247M) 1,259ms
+[2024-04-08T17:07:38.269+0200][info][gc,cpu       ] GC(4) User=0,01s Sys=0,00s Real=0,00s
+[2024-04-08T17:08:49.129+0200][info][gc,heap,exit ] Heap
+[2024-04-08T17:08:49.129+0200][info][gc,heap,exit ]  def new generation   total 78656K, used 69192K [0x00000000f0000000, 0x00000000f5550000, 0x00000000f5550000)
+[2024-04-08T17:08:49.129+0200][info][gc,heap,exit ]   eden space 69952K,  98% used [0x00000000f0000000, 0x00000000f438ecd0, 0x00000000f4450000)
+[2024-04-08T17:08:49.129+0200][info][gc,heap,exit ]   from space 8704K,   0% used [0x00000000f4cd0000, 0x00000000f4cd3430, 0x00000000f5550000)
+[2024-04-08T17:08:49.129+0200][info][gc,heap,exit ]   to   space 8704K,   0% used [0x00000000f4450000, 0x00000000f4450000, 0x00000000f4cd0000)
+[2024-04-08T17:08:49.129+0200][info][gc,heap,exit ]  tenured generation   total 174784K, used 7501K [0x00000000f5550000, 0x0000000100000000, 0x0000000100000000)
+[2024-04-08T17:08:49.129+0200][info][gc,heap,exit ]    the space 174784K,   4% used [0x00000000f5550000, 0x00000000f5ca3770, 0x00000000f5ca3800, 0x0000000100000000)
+[2024-04-08T17:08:49.129+0200][info][gc,heap,exit ]  Metaspace       used 16075K, capacity 16636K, committed 16896K, reserved 139264K
+[2024-04-08T17:08:49.129+0200][info][gc,heap,exit ]   class space    used 1769K, capacity 1967K, committed 2048K, reserved 122880K
