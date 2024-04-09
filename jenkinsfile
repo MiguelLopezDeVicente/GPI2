@@ -1,0 +1,17 @@
+pipeline{
+  agent any
+  
+  tools{
+    maven "Maven"
+  }
+
+  stages{
+    stage('Test'){
+      sh "mvn test"
+    }
+    stage('Build'){
+      sh "mvn clenak package"
+      sh "mvn install"
+    }
+  }
+}
