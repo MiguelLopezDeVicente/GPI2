@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                // Clonar el repositorio Git
+                git url: 'https://github.com/MiguelLopezDeVicente/GPI2.git', branch: 'master'
+            }
+        }
+        stage('Test') {
+            steps {
+              dir('kernel') {
+                sh 'mvn test'
+                }
+            }
+        }
+    }
+}
